@@ -1,0 +1,38 @@
+{
+  "Actions": [
+    {
+      "Icon": "action/images/actionimage", 
+      "Name": "Teams Plug-in", 
+      "States": [
+        {
+          "Image": "action/images/action"
+        }
+      ], 
+      "Tooltip": "Create Teams chat buttons", 
+      "UUID": "global.andyandtheteams.teams.action"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "neufert.global", 
+  "CodePath": "index.html", 
+  "PropertyInspectorPath": "propertyinspector/index.html", 
+  "Description": "Example description", 
+  "Name": "Teams Plug-in", 
+  "Icon": "action/images/action", 
+  "URL": "https://github.com/andyandtheteams/streamdeck-teams", 
+  "Version": "0.2",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+  }
+}
